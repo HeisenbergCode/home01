@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+body {
+	background-color: #eeeeee;
+}
+.wrapper {
+	width: 507px;
+	margin: 19px auto 0;
+	background-color: #ffffff;
+}
+
+/* Header */
+.line{
+	width: 80%;
+	margin: auto;
+	border-bottom: 2px solid #7a7a7a;
+
+}
+h1 {
+	padding-top: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Tahoma,sans-serif;
+	font-size: 32px;
+}
+
+.photo {
+	margin-top: 26px;
+}
+
+.photo img {
+	display: block;
+	width: 148px;
+	height: 139px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.photo + p{
+	margin-bottom: 15px;
+	margin-bottom: 35px;
+}
+
+/* Why Block? */
+.why{
+	margin-top: 30px;
+}
+
+.why>p {
+	font-family: Tahoma,sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-bottom: 18px;
+	margin-left: 61px;
+}
+
+ul li {
+	line-height: 28px;
+
+}
+
+/* Contacts */
+.contacts{
+	margin-top: 32px;
+}
+
+.contacts p {
+	text-align: left;
+	padding-bottom: 12px;
+	margin-left: 61px;
+}
+
+/* Feedback */
+.feedback {
+	margin-top: 30px;
+}
+.feedback p {
+	margin-left:  61px;
+	text-align: left;
+}
